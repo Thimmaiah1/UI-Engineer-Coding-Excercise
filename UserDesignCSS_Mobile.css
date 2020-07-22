@@ -1,0 +1,157 @@
+<script type="text/css">
+/* iPhone X (portrait)----------- */
+/*@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio: 2){*/
+ /*STYLES GO HERE */
+	.container{
+	  width: 300px;
+	  Height: 300px;
+	  /*border: 1px solid black;*/
+	  box-shadow: 1px 0px lightslategrey;
+	}
+	
+	.mobile1{
+		display:none;
+	}
+	
+	.mobile2{
+		display:none;
+	}
+	.backcolor{
+	  background-color: #72C3DC;
+	  border-radius: 7px;
+	  width: 20%;
+	  height: 35px;
+	  color: white;
+	  border: none;
+	  font-size: 10px;
+	  /*margin-left: -100px;*/
+	  box-shadow: 0px 2px lightslategrey;
+	}
+
+	.backcolor1{
+	  background-color: #72C3DC;
+	  border-radius: 7px;
+	  width: 20%;
+	  height: 35px;
+	  color: white;
+	  border: none;
+	  font-size: 10px;
+	  /*margin-left: -100px;*/
+	  box-shadow: 0px 2px lightslategrey;
+	}
+
+	.wrapper{
+	  display: grid;
+	  height: 100px;
+	  grid-template-rows: 50px 1fr;
+	  grid-template-columns: 1fr;
+	  grid-gap: 0px;
+	}
+	.buttons{
+	 display: grid;
+	 grid-template-rows: repeat(3,1fr);
+	 grid-template-columns: repeat(3,1fr);
+	 grid-gap: 0px; 
+	}
+
+	.btn1{
+	  background-color:#e6e9ec;
+	  /*text-align:center;*/
+	  width: 87%;
+	  margin-top: 1px;
+	  font-family: Tahoma;
+      padding-left: 160px;
+	  padding-bottom: 10px;
+	}
+	.btn2{
+	  background-color:#e6e9ec;
+	  /*text-align:center;*/
+	  width: 85%;
+	  margin-top: 1px;
+	  margin-left: -47px;
+	  font-family: Tahoma;
+	  padding-left: 207px;
+	  padding-bottom: 10px;
+	}
+	.btn3{
+	  background-color:#e6e9ec;
+	  /*text-align:center;*/
+	  width: 92%;
+	  margin-top: 1px;
+	  margin-left: -96px;
+	  font-family: Tahoma;
+	  padding-left: 255px;
+	  padding-bottom: 10px;
+	}
+	.btn4{
+	  background-color:#e6e9ec;
+	  /*text-align:center;*/
+	  width: 86%;	
+	  margin-top: -5.8px;
+	  margin-left: 0px;
+	  font-family: Tahoma;
+	  padding-left: 158px;
+	  padding-bottom: 10px;
+	}
+	.btn5{
+	  background-color:#e6e9ec;
+	  /*text-align:center;*/
+	  width: 86%;
+	  margin-top: -6px;
+	  margin-left: -48px;
+	  font-family: Tahoma;
+	  padding-left: 206px;
+	  padding-bottom: 10px;
+	}
+	.btn6{
+	  background-color:#e6e9ec;
+	  /*text-align:center;*/
+	  width: 92%;
+	  margin-top: -6px;
+	  margin-left: -96px;
+	  font-family: Tahoma;
+	  padding-left: 254px;
+	  padding-bottom: 10px;
+	}
+	.btn7{
+	  background-color:#e6e9ec;
+	  /*text-align:center;*/
+	  width: 86%;
+	  margin-top: 0px;
+	  margin-left: 0px;
+	  font-family: Tahoma;
+	  padding-left: 158px;
+	  padding-bottom: 10px;
+	}
+	.btn8{
+	  background-color:#e6e9ec;
+	  /*text-align:center;*/
+	  width: 86%;
+	  margin-top: 0px;
+	  margin-left: -48px;
+	  font-family: Tahoma;
+	  padding-left: 206px;
+	  padding-bottom: 10px;
+	}
+	.btn9{
+	  background-color:#e6e9ec;
+	  /*text-align:center;*/
+	  width: 92%;
+	  margin-top: 0px;
+	  margin-left: -96px;
+	  font-family: Tahoma;
+	  padding-left: 254px;
+	  padding-bottom: 10px;
+	}
+
+	.btnr1 >input {
+	  background:transparent;
+	  border:none;
+	  justify-content:center;
+	  align-self:end;
+	  color:black;
+	  font-size:0.8em;
+	  margin-top:-1px;
+	}
+/*}*/
+</script>

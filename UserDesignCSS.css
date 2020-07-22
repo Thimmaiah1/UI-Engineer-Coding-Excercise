@@ -1,0 +1,272 @@
+<script type="text/css">
+/* Desktops and laptops ----------- */
+/*@media only screen and (max-width : 960px) {
+/*STYLES GO HERE
+	.container{
+	  width: 600%;
+	  Height: 300px;
+	  /*border: 1px solid black;
+	  box-shadow: 1px 0px lightslategrey;
+	}
+	.backcolor{
+	  background-color: #72C3DC;
+	  border-radius: 7px;
+	  width: 104%;
+	  height: 35px;
+	  color: white;
+	  border: none;
+	  font-size: 10px;
+	  margin-left: -100px;
+	  margin-top: 10px;
+	  box-shadow: 0px 2px lightslategrey;
+	}
+
+	.backcolor1{
+	  background-color: #72C3DC;
+	  border-radius: 7px;
+	  width: 104%;
+	  height: 35px;
+	  color: white;
+	  border: none;
+	  font-size: 10px;
+	  margin-left: -100px;
+	  box-shadow: 0px 2px lightslategrey;
+	}
+
+	.wrapper{
+	  display: grid;
+	  height: 100px;
+	  grid-template-rows: 50px 1fr;
+	  grid-template-columns: 1fr;
+	  grid-gap: 0px;
+	}
+	.buttons{
+	 display: grid;
+	 grid-template-rows: repeat(3,1fr);
+	 grid-template-columns: repeat(3,1fr);
+	 grid-gap: 0px; 
+	}
+
+	.btn1{
+	  background-color:#6F98A8;
+	  text-align:center;
+	  width: 87%;
+	  margin-top: 1px;
+	  font-family: Tahoma; 
+	}
+	.btn2{
+	  background-color:#2B8EAD;
+	  text-align:center;
+	  width: 85%;
+	  margin-top: 1px;
+	  margin-left: -47px;
+	  font-family: Tahoma;
+	}
+	.btn3{
+	  background-color:#333333;
+	  text-align:center;
+	  width: 92%;
+	  margin-top: 1px;
+	  margin-left: -96px;
+	  font-family: Tahoma;
+      height: 82px;
+	}
+	.btn4{
+	  background-color:#2B8EAD;
+	  text-align:center;
+	  width: 86%;	
+	  margin-top: -5.8px;
+	  margin-left: 0px;
+	  font-family: Tahoma;
+	}
+	.btn5{
+	  background-color:#333333;
+	  text-align:center;
+	  width: 86%;
+	  margin-top: -6px;
+	  margin-left: -48px;
+	  font-family: Tahoma;
+	}
+	.btn6{
+	  background-color:#BFBFBF;
+	  text-align:center;
+	  width: 91%;
+	  margin-top: -5px;
+	  margin-left: -95px;
+      height: 86px;
+	  font-family: Tahoma;
+	}
+	.btn7{
+	  background-color:#BFBFBF;
+	  text-align:center;
+	  width: 86%;
+	  margin-top: 0px;
+	  margin-left: 0px;
+	  font-family: Tahoma;
+	}
+	.btn8{
+	  background-color:#6F98A8;
+	  text-align:center;
+	  width: 86%;
+	  margin-top: 0px;
+	  margin-left: -48px;
+	  font-family: Tahoma;
+	}
+	.btn9{
+	  background-color:#333333;
+	  text-align:center;
+	  width: 92%;
+	  margin-top: 0px;
+	  margin-left: -96px;
+	  font-family: Tahoma;
+	}
+
+	.btnr1 >input {
+	  background:transparent;
+	  border:none;
+	  justify-content:center;
+	  align-self:end;
+	  color:white;
+	  font-size:2.5em;
+	  margin-top:25px;
+	}
+/*}*/
+
+.container{
+  width: 800%;
+  Height: 260px;
+  border: 1px solid black;
+  box-shadow: 0px 2px lightslategrey;
+}
+
+.mobile3{
+  display:none;
+}
+
+.mobile4{
+  display:none;
+}
+
+.backcolor{
+  background-color: #72C3DC;
+  border-radius: 7px;
+  width: 104%;
+  height: 35px;
+  color: white;
+  border: none;
+  font-size: 10px;
+  margin-left: -100px;
+  box-shadow: 0px 2px lightslategrey;
+}
+
+.backcolor1{
+  background-color: #72C3DC;
+  border-radius: 7px;
+  width: 104%;
+  height: 35px;
+  color: white;
+  border: none;
+  font-size: 10px;
+  margin-left: -100px;
+  box-shadow: 0px 2px lightslategrey;
+}
+
+.wrapper{
+  display: grid;
+  height: 100px;
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 0px;
+}
+.buttons{
+ display: grid;
+ grid-template-rows: repeat(3,1fr);
+ grid-template-columns: repeat(3,1fr);
+ grid-gap: 0px; 
+}
+
+.btn1{
+  background-color:#6F98A8;
+  text-align:center;
+  width: 100%;
+  margin-top: 1px;
+  font-family: Tahoma; 
+}
+.btn2{
+  background-color:#2B8EAD;
+  text-align:center;
+  width: 100%;
+  margin-top: 1px;
+  margin-left: -47px;
+  font-family: Tahoma;
+}
+.btn3{
+  background-color:#333333;
+  text-align:center;
+  width: 100%;
+  margin-top: 1px;
+  margin-left: -96px;
+  font-family: Tahoma;
+}
+.btn4{
+  background-color:#2B8EAD;
+  text-align:center;
+  width: 100%;	
+  margin-top: -5.8px;
+  margin-left: 0px;
+  font-family: Tahoma;
+}
+.btn5{
+  background-color:#333333;
+  text-align:center;
+  width: 100%;
+  margin-top: -6px;
+  margin-left: -48px;
+  font-family: Tahoma;
+}
+.btn6{
+  background-color:#BFBFBF;
+  text-align:center;
+  width: 100%;
+  margin-top: -5px;
+  margin-left: -95px;
+  height: 85px;
+  font-family: Tahoma;
+}
+.btn7{
+  background-color:#BFBFBF;
+  text-align:center;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+  font-family: Tahoma;
+  
+}
+.btn8{
+  background-color:#6F98A8;
+  text-align:center;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: -48px;
+  font-family: Tahoma;
+}
+.btn9{
+  background-color:#333333;
+  text-align:center;
+  width: 100%;
+  margin-top: -1px;
+  margin-left: -96px;
+  height: 88px;
+  font-family: Tahoma;
+}
+
+.btnr1 >input {
+  background:transparent;
+  border:none;
+  justify-content:center;
+  align-self:end;
+  color:white;
+  font-size:2.5em;
+  margin-top:25px;
+}
+</script>
